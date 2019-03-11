@@ -51,7 +51,8 @@
 //     console.log("Sumatoria con Lamda", sumatoria(90,30));
 
 
-//Clasesssss
+//Console metodos 
 
+console.log("Usted es bienvenido a la plataforma");
 
 
