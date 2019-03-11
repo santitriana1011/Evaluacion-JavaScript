@@ -1,0 +1,79 @@
+center{
+    position: relative;
+    margin: 20px auto;
+    width: 600px; 
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: rgba(74, 139, 79, 0.87);
+    color: white;
+    font-weight: bold;
+}
+
+
+form{
+    font-size: 36px;
+    margin-left: 30%;
+}
+input{
+    margin-left: 10px;
+    font-size: 32px;
+    width: 500px;
+    border-bottom: 3px solid rgba(74, 139, 79, 0.87);
+    border-top: 0 #FFF solid;
+    border-left: 0 #FFF solid;
+    border-right: 0 #FFF solid;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+select{
+    width: 332px;
+    height: 25px;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 32px;
+    width: 300px;
+}
+input[type=text]:focus{
+    width: 500px;
+    border-bottom: 8px solid rgba(74, 139, 79, 0.87);
+
+}
+
+input[type=checkbox]{
+    width: 12px;
+}
+
+input[type=radio]{
+    width: 12px;
+}
+
+.fas{
+    color: rgba(74, 139, 79, 0.87);
+}
+
+.fa-save{
+    color: black;   
+}
+#resultado{
+    border: 8px dotted rgba(74, 139, 79, 0.87);
+    width: 400px;
+    height: 500px;
+    /* float: left; */
+}
+
+.politica{
+    display: block;
+    font-size: 22px;
+}
+
+#formulario label span.obligatorio{
+    display: none;
+    color: #777;
+}
+

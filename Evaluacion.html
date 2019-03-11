@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/Formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+        <center><h1>Formulario</h1></center>
+
+    <!-- formulario -->
+
+        <div id="formulario">
+                <form action="#" id="formRegister" onsubmit="metFormulario.valFormCompleto()">
+                    
+                        <p>
+                            <i class="fas fa-user"></i>
+                            <input class="validar" type="text" placeholder="Ingrese minimo 2 caracteres, maximo 6" id="name">
+                            <label for="name"><span class="obligatorio">*Campo Obligatorio</span></label>
+                        </p>
+
+                        <p>
+                            <i class="fas fa-key"></i>
+                            <input class="validar" type="password" placeholder="Escriba su contraseña con minimo 8 caracteres y debe incluir letras en mayuscula" id="password">
+                            <label for="password"><span class="obligatorio">*Campo Obligatorio</span></label>
+                        </p>
+
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            <input class="validar" type="email" placeholder="Ingrese su correo correctamente" id="email">
+                            <label for="text"><span class="obligatorio">*Campo Obligatorio</span></label>
+                        </p>
+
+                        <p>
+                                <i class="fas fa-palette"></i>
+                                <select class="validar" name="validar" type="select">
+                                        <option value="" selected="select">Seleccione un color</option>
+                                        <option value="">Amarillo</option>
+                                        <option value="">Rojo</option>
+                                        <option value="">Azul</option>
+                                </select>
+                                <label for="text"><span class="obligatorio">*Campo Obligatorio</span></label>
+                        </p>
+
+                        <p>
+                                <i class="fas fa-paw"></i>
+                                <br><input class="validar" type="checkbox"><i>Perro</i><br>
+                                <input class="validar" type="checkbox"><i>Gato</i><br>
+                                <input class="validar" type="checkbox"><i>Conejo</i>
+                                <label for="text"><span class="obligatorio">*Campo Obligatorio</span></label>
+                        </p>
+
+                        <p>
+                                <i class="fas fa-money-bill-alt"></i>
+                                <br><input class="validar" type="radio" name="opcion" id=""><i>Efectivo</i><br>
+                                <input class="validar" type="radio" name="opcion" id=""><i>Credito</i>
+                                <label for="text"><span class="obligatorio">*Campo Obligatorio</span></label>
+                        </p>
+
+                      
+
+
+                        <ul>
+                                <li  class="politica">
+                             <input type="checkbox" name="checkeador">Acepto los terminos
+                             </li>
+                           </ul>
+                        
+
+                           <p>
+                                <label id="labelEnviar"></label>
+                                <button type="submit"><i class="fas fa-save"></i></i>Enviar</button>
+                        </p>
+
+                    
+            
+                     
+            
+            
+                
+                </form>
+            
+            
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <script src="Js/Respuestas.js"></script>   -->
+        <script src="js/Formulario.js"></script> 
+</body>
+</html>
